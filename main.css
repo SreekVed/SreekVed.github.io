@@ -1,0 +1,23 @@
+body{
+	background-color: white;
+}
+
+.jumbotron{
+	background-color: black;
+	position:absolute;
+	width:100%;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 300;
+  margin: 0;
+  color: green;
+}
+
+#waves{
+	position:absolute;
+    height:100%;
+    width:100%;
+}
