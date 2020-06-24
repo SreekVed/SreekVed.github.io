@@ -28,6 +28,12 @@ body {
     display: none;
   }
 
+@media (max-width: 767px) { 
+    .navbar{
+        visibility: hidden;
+    }
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -35,7 +41,7 @@ body {
     display: flex;
     width: 100%;
     height: 60px;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.6);
 }
 
 .navbar ul{
