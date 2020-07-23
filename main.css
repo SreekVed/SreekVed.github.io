@@ -23,6 +23,8 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 .container::-webkit-scrollbar {
     display: none;
@@ -88,8 +90,8 @@ section {
     animation: bounce 1.25s ease infinite;
     bottom: 2rem;
     color: #fff;
-    content: '╲╱';
-    font-size: 2.5rem;
+    content: '▼';
+    font-size: 3rem;
     height: 12vh;
     left: 50%;
     letter-spacing: -1px;
