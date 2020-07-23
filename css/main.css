@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #333;
     color: #ffffff;
     line-height: 1.6;
@@ -54,7 +56,7 @@ body {
 }
 
 .navbar ul li {
-    margin: 0 1rem;
+    margin: 0 2rem;
     padding: 1rem;
 }
 
@@ -115,7 +117,7 @@ section {
 
 
 section h1 {
-    font-size: 4rem;
+    font-size: 10vmin;
 }
 
 section p {
@@ -127,7 +129,7 @@ section#home {
 }
 
 section#home h1 {
-    font-size: 5rem;
+    font-size: 15vmin;
 }
 
 section#about {
@@ -136,6 +138,9 @@ section#about {
 
 section#projects {
     background: no-repeat center/cover;
+}
+
+section#projects h1 {
 }
 
 section#contact {
