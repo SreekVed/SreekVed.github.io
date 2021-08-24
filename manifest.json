@@ -1,0 +1,14 @@
+{
+  "short_name": "Sreekar Vedula",
+  "name": "Sreekar Vedula's Personal Website",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/ico"
+    } 
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
